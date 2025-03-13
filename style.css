@@ -5,7 +5,7 @@ body {
     position: fixed;
     width: 40%;
     text-align: center;
-    top: 50%;
+    top: 10%;
     left: 50%;
     padding: 20px;
     transform: translate(-50%, 0);
@@ -14,16 +14,19 @@ body {
     height: 200px;
     width: 200px;
     border: 2px solid blue;
+    display: block
 }
 .country2 {
     height: 200px;
     width: 200px;
     border: 2px solid orange;
+    display: block
 }
 .country3 {
     height: 200px;
     width: 200px;
     border: 2px solid green;
+    display: block
 }
 .countries{
     display: flex;
