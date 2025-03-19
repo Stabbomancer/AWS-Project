@@ -1,31 +1,40 @@
 body {
     background-color: #e47f7f;
   }
+h1 {
+    color: white;
+}
 .fixed {
     position: fixed;
-    width: 40%;
     text-align: center;
     top: 10%;
     left: 50%;
     padding: 20px;
     transform: translate(-50%, 0);
 }
+.countries {
+    margin: auto;
+    padding: 10px;
+}
 .country1 {
     height: 200px;
     width: 200px;
-    border: 2px solid blue;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, red, white, blue) 1;
     display: block
 }
 .country2 {
     height: 200px;
     width: 200px;
-    border: 2px solid orange;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, black, rgb(211, 0, 0), rgb(255, 165, 0)) 1;
     display: block
 }
 .country3 {
     height: 200px;
     width: 200px;
-    border: 2px solid green;
+    border: 2px solid;
+    border-image: linear-gradient(to top, white, red, white) 1;
     display: block
 }
 .countries{
@@ -42,7 +51,9 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.4s ease;
+    transition: 0.4s ease;
 }
 button:hover {
     background-color: #007bff;
+    transform: scale(1.25);
 }
