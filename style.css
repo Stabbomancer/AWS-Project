@@ -1,5 +1,5 @@
 body {
-    background-color: #cc7fe4;
+    background-color: #e47f7f;
   }
 .fixed {
     position: fixed;
@@ -31,4 +31,18 @@ body {
 .countries{
     display: flex;
     column-gap: 20px;
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #e47f7f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+button:hover {
+    background-color: #007bff;
 }
