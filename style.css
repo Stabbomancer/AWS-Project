@@ -1,3 +1,13 @@
+.japanBox1 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding: 10px;
+    display: none
+}
+
 body {
     background-color: #e47f7f;
 }
@@ -53,6 +63,14 @@ h1 {
 .countries {
     display: flex;
     column-gap: 20px;
+}
+
+.japanBoxContent {
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+    border: transparent;
+    display: flexbox;
 }
 
 button {
