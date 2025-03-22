@@ -1,4 +1,7 @@
-.japanBox1 {
+.japanBox1,
+.japanBox2,
+.japanBox3,
+.japanBox4 {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
