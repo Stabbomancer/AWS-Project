@@ -6,6 +6,12 @@ let restart = document.querySelector(".restart");
 let title = document.querySelector(".title");
 let japanStart = document.querySelector(".japanBox1");
 let jpOption1 = document.querySelector(".jp1");
+let jpOption2 = document.querySelector(".jp2");
+let jpOption3 = document.querySelector(".jp3");
+let tokyoContainer = document.querySelector(".tokyoContainer");
+let tokyoStart = document.querySelector(".japanBox2");
+let osakaStart = document.querySelector(".japanBox3");
+let hokkaidoStart = document.querySelector(".japanBox4");
 
 restart.addEventListener("click", function () {
   location.reload();
@@ -28,4 +34,16 @@ startButton3.addEventListener("click", function () {
 //Japan
 jpOption1.addEventListener("click", function () {
   japanStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  tokyoStart.style.display = "flex";
+});
+jpOption2.addEventListener("click", function () {
+  japanStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  osakaStart.style.display = "flex";
+});
+jpOption3.addEventListener("click", function () {
+  japanStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  hokkaidoStart.style.display = "flex";
 });
