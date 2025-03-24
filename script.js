@@ -8,11 +8,25 @@ let japanStart = document.querySelector(".japanBox1");
 let jpOption1 = document.querySelector(".jp1");
 let jpOption2 = document.querySelector(".jp2");
 let jpOption3 = document.querySelector(".jp3");
-let tokyoContainer = document.querySelector(".tokyoContainer");
 let tokyoStart = document.querySelector(".japanBox2");
 let osakaStart = document.querySelector(".japanBox3");
 let hokkaidoStart = document.querySelector(".japanBox4");
+let usStart = document.querySelector(".usBox1");
+let usBox = document.querySelector(".usBoxContent");
+let tkyOption1 = document.querySelector(".tky1");
+let tkyOption2 = document.querySelector(".tky2");
+let tkyOption3 = document.querySelector(".tky3");
+let tkyOption4 = document.querySelector(".tky4");
+let oskOption1 = document.querySelector(".osk1");
+let oskOption2 = document.querySelector(".osk2");
+let oskOption3 = document.querySelector(".osk3");
+let oskOption4 = document.querySelector(".osk4");
+let hkdoOption1 = document.querySelector(".hkdo1");
+let hkdoOption2 = document.querySelector(".hkdo2");
+let hkdoOption3 = document.querySelector(".hkdo3");
+let hkdoOption4 = document.querySelector(".hkdo4");
 
+//Restart Button
 restart.addEventListener("click", function () {
   location.reload();
 });
@@ -21,6 +35,7 @@ restart.addEventListener("click", function () {
 startButton1.addEventListener("click", function () {
   start.style.display = "none";
   title.innerHTML = "Where Would You Like To Go?";
+  usStart.style.display = "flex";
 });
 startButton2.addEventListener("click", function () {
   start.style.display = "none";
@@ -31,6 +46,7 @@ startButton3.addEventListener("click", function () {
   start.style.display = "none";
   japanStart.style.display = "flex";
 });
+
 //Japan
 jpOption1.addEventListener("click", function () {
   japanStart.style.display = "none";
@@ -47,3 +63,52 @@ jpOption3.addEventListener("click", function () {
   title.innerHTML = "Where Would You Like To Stay On This Trip?";
   hokkaidoStart.style.display = "flex";
 });
+tkyOption1.addEventListener("click", function () {
+  tokyoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+tkyOption2.addEventListener("click", function () {
+  tokyoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+tkyOption3.addEventListener("click", function () {
+  tokyoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+tkyOption4.addEventListener("click", function () {
+  tokyoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+oskOption1.addEventListener("click", function () {
+  osakaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+oskOption2.addEventListener("click", function () {
+  osakaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+oskOption3.addEventListener("click", function () {
+  osakaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+oskOption4.addEventListener("click", function () {
+  osakaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+hkdoOption1.addEventListener("click", function () {
+  hokkaidoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+hkdoOption2.addEventListener("click", function () {
+  hokkaidoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+hkdoOption3.addEventListener("click", function () {
+  hokkaidoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+hkdoOption4.addEventListener("click", function () {
+  hokkaidoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+//US
