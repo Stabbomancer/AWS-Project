@@ -2,6 +2,8 @@
 .japanBox2,
 .japanBox3,
 .japanBox4,
+.akihabara,
+.animateAki,
 .usBox1 {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -12,6 +14,11 @@
     display: none
 }
 
+.animateAkiEnd {
+    margin: auto;
+    padding: 10px;
+    display: none
+}
 
 body {
     background-color: #cfebfc;
