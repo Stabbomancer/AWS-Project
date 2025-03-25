@@ -11,8 +11,35 @@ let jpOption3 = document.querySelector(".jp3");
 let tokyoStart = document.querySelector(".japanBox2");
 let osakaStart = document.querySelector(".japanBox3");
 let hokkaidoStart = document.querySelector(".japanBox4");
+
+
 let usStart = document.querySelector(".usBox1");
-let usBox = document.querySelector(".usBoxContent");
+let usOption1 = document.querySelector(".us1");
+let usOption2 = document.querySelector(".us2");
+let usOption3 = document.querySelector(".us3");
+let usOption4 = document.querySelector(".us4");
+let newyorkStart = document.querySelector(".usbox2");
+let floridaStart = document.querySelector(".usbox3");
+let losangelesStart = document.querySelector(".usbox4");
+let lasvegasStart = document.querySelector(".usbox5");
+let nyOption1 = document.querySelector(".ny1");
+let nyOption2 = document.querySelector(".ny2");
+let nyOption3 = document.querySelector(".ny3");
+let nyOption4 = document.querySelector(".ny4");
+let flOption1 = document.querySelector(".fl1");
+let flOption2 = document.querySelector(".fl2");
+let flOption3 = document.querySelector(".fl3");
+let flOption4 = document.querySelector(".fl4");
+let laOption1 = document.querySelector(".la1");
+let laOption2 = document.querySelector(".la2");
+let laOption3 = document.querySelector(".la3");
+let laOption4 = document.querySelector(".la4");
+let lvOption1 = document.querySelector(".lv1");
+let lvOption2 = document.querySelector(".lv2");
+let lvOption3 = document.querySelector(".lv3");
+let lvOption4 = document.querySelector(".lv4");
+
+
 let tkyOption1 = document.querySelector(".tky1");
 let tkyOption2 = document.querySelector(".tky2");
 let tkyOption3 = document.querySelector(".tky3");
@@ -143,4 +170,29 @@ aniOption2.addEventListener("click", function () {
   animateAki.style.display = "none";
   title.innerHTML = "Test";
 });
+
 //US
+usOption1.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  newyorkStart.style.display = "flex";
+});
+usOption2.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  floridaStart.style.display = "flex";
+});
+usOption3.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  losangelesStart.style.display = "flex";
+});
+usOption4.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  lasvegasStart.style.display = "flex";
+});
+nyOption1.addEventListener("click", function () {
+  newyorkStart.style.display = "none";
+  title.innerHTML = "Test";
+});
