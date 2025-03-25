@@ -25,6 +25,14 @@ let hkdoOption1 = document.querySelector(".hkdo1");
 let hkdoOption2 = document.querySelector(".hkdo2");
 let hkdoOption3 = document.querySelector(".hkdo3");
 let hkdoOption4 = document.querySelector(".hkdo4");
+let akihabara = document.querySelector(".akihabara");
+let akiOption1 = document.querySelector(".aki1");
+let akiOption2 = document.querySelector(".aki2");
+let akiOption3 = document.querySelector(".aki3");
+let animateAki = document.querySelector(".animateAki");
+let aniOption1 = document.querySelector(".ani1");
+let aniOption2 = document.querySelector(".ani2");
+let animateAkiEnd = document.querySelector(".animateAkiEnd");
 
 //Restart Button
 restart.addEventListener("click", function () {
@@ -65,11 +73,13 @@ jpOption3.addEventListener("click", function () {
 });
 tkyOption1.addEventListener("click", function () {
   tokyoStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This Hotel is Near Akihabara, What Would You Like To Do?";
+  akihabara.style.display = "flex";
 });
 tkyOption2.addEventListener("click", function () {
   tokyoStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This Hotel is Near Akihabara, What Would You Like To Do?";
+  akihabara.style.display = "flex";
 });
 tkyOption3.addEventListener("click", function () {
   tokyoStart.style.display = "none";
@@ -109,6 +119,28 @@ hkdoOption3.addEventListener("click", function () {
 });
 hkdoOption4.addEventListener("click", function () {
   hokkaidoStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+akiOption1.addEventListener("click", function () {
+  akihabara.style.display = "none";
+  title.innerHTML = "There's tons of anime merch to choose from, and as fun as exploring this is, it's all costing an arm and a leg.";
+  animateAki.style.display = "flex";
+});
+akiOption2.addEventListener("click", function () {
+  akihabara.style.display = "none";
+  title.innerHTML = "Test";
+});
+akiOption3.addEventListener("click", function () {
+  akihabara.style.display = "none";
+  title.innerHTML = "Test";
+});
+aniOption1.addEventListener("click", function () {
+  animateAki.style.display = "none";
+  title.innerHTML = "";
+  animateAkiEnd.style.display = "flex";
+});
+aniOption2.addEventListener("click", function () {
+  animateAki.style.display = "none";
   title.innerHTML = "Test";
 });
 //US
