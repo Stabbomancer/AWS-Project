@@ -4,6 +4,16 @@ let startButton2 = document.querySelector(".startButton2");
 let startButton3 = document.querySelector(".startButton3");
 let restart = document.querySelector(".restart");
 let title = document.querySelector(".title");
+
+let usStart = document.querySelector(".usBox1");
+let usBox = document.querySelector(".usBoxContent");
+let usOption1 = document.querySelector(".us1");
+let usOption2 = document.querySelector(".us2");
+let usOption3 = document.querySelector(".us3");
+let usOption4 = document.querySelector(".us4");
+let newyorkstart = document.querySelector(".usBox2");
+
+
 let japanStart = document.querySelector(".japanBox1");
 let jpOption1 = document.querySelector(".jp1");
 let jpOption2 = document.querySelector(".jp2");
@@ -11,8 +21,6 @@ let jpOption3 = document.querySelector(".jp3");
 let tokyoStart = document.querySelector(".japanBox2");
 let osakaStart = document.querySelector(".japanBox3");
 let hokkaidoStart = document.querySelector(".japanBox4");
-let usStart = document.querySelector(".usBox1");
-let usBox = document.querySelector(".usBoxContent");
 let tkyOption1 = document.querySelector(".tky1");
 let tkyOption2 = document.querySelector(".tky2");
 let tkyOption3 = document.querySelector(".tky3");
@@ -144,3 +152,23 @@ aniOption2.addEventListener("click", function () {
   title.innerHTML = "Test";
 });
 //US
+usOption1.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  newyorkStart.style.display = "flex";
+});
+usOption2.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  floridaStart.style.display = "flex";
+});
+usOption3.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  losangelesStart.style.display = "flex";
+});
+usOption4.addEventListener("click", function () {
+  usStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  lasvegasStart.style.display = "flex";
+});
