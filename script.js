@@ -6,12 +6,14 @@ let restart = document.querySelector(".restart");
 let title = document.querySelector(".title");
 
 let usStart = document.querySelector(".usBox1");
-let usBox = document.querySelector(".usBoxContent");
 let usOption1 = document.querySelector(".us1");
 let usOption2 = document.querySelector(".us2");
 let usOption3 = document.querySelector(".us3");
 let usOption4 = document.querySelector(".us4");
-let newyorkstart = document.querySelector(".usBox2");
+let newyorkStart = document.querySelector(".usBox2");
+let floridaStart = document.querySelector(".usBox3");
+let nyOption1 = document.querySelector(".ny1");
+let usBox = document.querySelector(".usBoxContent");
 
 
 let japanStart = document.querySelector(".japanBox1");
@@ -171,4 +173,8 @@ usOption4.addEventListener("click", function () {
   usStart.style.display = "none";
   title.innerHTML = "Where Would You Like To Stay On This Trip?";
   lasvegasStart.style.display = "flex";
+});
+nyOption1.addEventListener("click", function () {
+  newyorkStart.style.display = "none";
+  title.innerHTML = "Test";
 });
