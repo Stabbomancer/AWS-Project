@@ -1,16 +1,4 @@
-.japanBox1,
-.japanBox2,
-.japanBox3,
-.japanBox4,
-.akihabara,
-.animateAki,
-.supeTaterAki,
-.shrineAki,
-.shibuya,
-.museumShbya,
-.shrineShbya,
-.parkShbya,
-.usBox1 {
+.option {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -20,17 +8,7 @@
     display: none
 }
 
-.animateAkiEnd1,
-.animateAkiEnd2,
-.supeTaterAkiEnd1,
-.supeTaterAkiEnd2,
-.shrineAkiEnd1,
-.shrineAkiEnd2,
-.museumShbyaEnd1,
-.museumShbyaEnd2,
-.shrineShbyaEnd1,
-.shrineShbyaEnd2,
-.parkShbyaEnd {
+.ending {
     margin: auto;
     padding: 10px;
     display: none

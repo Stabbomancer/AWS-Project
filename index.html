@@ -7,6 +7,7 @@
 <script src="script.js" defer></script>
 
 <body>
+  <!-- Start -->
   <div>
     <button class="restart">Restart</button>
   </div>
@@ -31,66 +32,62 @@
         </div>
       </div>
     </div>
-    <!--US-->
-    <!-- US cities/States-->
-    <div class="usBox1">
+    <!-- US -->
+    <!-- US Cities -->
+    <div class="usBox1 option">
       <div class="usBoxContent">
         <button class="us1">New York</button>
-
-        <img src="https://maps-nyc.com/img/0/map-of-new-york-city-boroughs.jpg" 
-          width="100%">
+        <img src="https://maps-nyc.com/img/0/map-of-new-york-city-boroughs.jpg" width="100%">
       </div>
       <div class=usBoxContent>
         <button class="us2">Florida</button>
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Map_of_Florida_Regions_with_Cities.svg"
-
           width="100%">
       </div>
       <div class="usBoxContent">
         <button class="us3">Los Angeles</button>
-        <img src="https://i.etsystatic.com/5231628/r/il/abe2cd/1028646886/il_1588xN.1028646886_bvsh.jpg"
-          width="70%">
+        <img src="https://i.etsystatic.com/5231628/r/il/abe2cd/1028646886/il_1588xN.1028646886_bvsh.jpg" width="70%">
       </div>
-      <div class="usBoxcontent">
+      <div class="usBoxContent">
         <button class="us4">Las Vegas</button>
         <img src="https://t3.ftcdn.net/jpg/06/01/00/62/360_F_601006275_svDYfT7IdYtY7jHnKsASkc7YVCo3a8aq.jpg"
           width="80%">
-      </div>        
+      </div>
     </div>
     <!--US || New York Hotels-->
-    <div class="usBox2">
-      <div class="class usBoxContent">
+    <div class="usBox2 option">
+      <div class="usBoxContent">
         <button class="ny1">Pendry Manhattan West</button>
-        <img src="data:image/jpeg;base64,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"
-          width="60%"
-             width="80%">
+        <img
+          src="https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2022/48499/0exterior-xl.jpg"
+          width="90%">
+      </div>
+      <div class="usBoxcontent">
+        <button class="ny2">The Pierre</button>
+        <img
+          src="https://images.trvl-media.com/lodging/1000000/30000/20300/20213/a6216f79.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+          width="40%">
       </div>
       <div class="usBoxContent">
-        <button class="us3">Los Angeles</button>
-        <img 
-        src="https://i.etsystatic.com/5231628/r/il/abe2cd/1028646886/il_1588xN.1028646886_bvsh.jpg"
-        width="61%">
+        <button class="ny3">The Cloud One</button>
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/583373848.jpg?k=13e169579d330ee33930fe839d96aa510774e52baed30666f98055e0e8d1274a&o=&hp=1"
+          width="60%">
       </div>
       <div class="usBoxContent">
-        <button class="us4">Las Vegas</button>
-        <img src="https://nativemaps.us/cdn/shop/products/LasVegas_TealonNavy_Whitebackground.jpg?v=1665597364&width=720"
-              width="80%">
+        <button class="ny4">Americas Best Value Inn</button>
+        <img
+          src="https://americas-best-value-inn-10917.new-york-state.net/data/Photos/OriginalPhoto/13165/1316586/1316586082/photo-americas-best-value-inn-10917-central-valley-22.JPEG"
+          width="60%">
       </div>
-    </div>
 
-    <!--US || New York Hotels-->
-    <div class="usBox2">
-
-      
     </div>
 
     <!--Germany-->
-    <div>
 
-    </div>
-    <!-- Japan -->
-    <!-- Japan Cities -->
-    <div class="japanBox1">
+    <!--Japan-->
+    <!--Japan Cities-->
+    <div class="japanBox1 option">
       <div class="japanBoxContent">
         <button class="jp1">Tokyo</button>
         <img
@@ -108,9 +105,8 @@
           width="90%">
       </div>
     </div>
-
-    <!-- Japan || Tokyo Hotels -->
-    <div class="japanBox2">
+    <!--Japan || Tokyo Hotels-->
+    <div class="japanBox2 option">
       <div class="japanBoxContent">
         <button class="tky1">The Kitano Hotel Tokyo</button>
         <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/20/15/6c/caption.jpg?w=500&h=-1&s=1"
@@ -135,8 +131,8 @@
           width="60%">
       </div>
     </div>
-    <!-- Japan || Osaka Hotels -->
-    <div class="japanBox3">
+    <!--Japan || Osaka Hotels-->
+    <div class="japanBox3 option">
       <div class="japanBoxContent">
         <button class="osk1">Ryotei Rangetsu</button>
         <img src="https://www.japantraveleronline.com/photo/posi/TI_1042925_20160623125617000.jpg" width="90%">
@@ -156,8 +152,8 @@
         <img src="https://ak-d.tripcdn.com/images//1mc4z12000dctd3hs7E99.jpg" width="90%">
       </div>
     </div>
-    <!-- Japan || Hokkaido Hotels -->
-    <div class="japanBox4">
+    <!--Japan || Hokkaido Hotels-->
+    <div class="japanBox4 option">
       <div class="japanBoxContent">
         <button class="hkdo1">Lake Toya Tsuruga Resort Hikari no Uta</button>
         <img src="https://i.travelapi.com/lodging/91000000/90620000/90616300/90616294/0d1b5661_z.jpg" width="90%">
@@ -178,8 +174,8 @@
         <img src="https://www.j-hotel.or.jp/uploads/sapporoprincehoteltower.jpg" width="80%">
       </div>
     </div>
-
-    <div class="akihabara">
+    <!--Akihabara-->
+    <div class="akihabara option">
       <div class="japanBoxContent">
         <button class="aki1">Animate Akihabara</button>
         <img src="https://lh3.googleusercontent.com/p/AF1QipOu6lpWl9w9qGhJlQGE9Fm9xNqKeLOICbYiHFvb=s1360-w1360-h1020"
@@ -196,7 +192,7 @@
           width="90%">
       </div>
     </div>
-    <div class="animateAki">
+    <div class="animateAki option">
       <div class="japanBoxContent">
         <button class="ani1">Buy Some Stuff And Leave</button>
         <img src="https://www.animate.co.jp/assets/uploads/2024/08/1727659444-93a43851f6edca4c809730bb2c71c4d4.jpg"
@@ -209,7 +205,7 @@
           width="90%">
       </div>
     </div>
-    <div class="animateAkiEnd1">
+    <div class="animateAkiEnd1 ending">
       <div class="japanBoxContent">
         <h2>You Trip, Immediately Breaking Your Merch, And Your Heart. Cmon Bro (END)</h2>
         <img
@@ -217,7 +213,7 @@
           width="90%">
       </div>
     </div>
-    <div class="animateAkiEnd2">
+    <div class="animateAkiEnd2 ending">
       <div class="japanBoxContent">
         <h2>You Get Fried (END)</h2>
         <img
@@ -225,7 +221,7 @@
           width="90%">
       </div>
     </div>
-    <div class="supeTaterAki">
+    <div class="supeTaterAki option">
       <div class="japanBoxContent">
         <button class="tater1">Go Into The Nintendo Section</button>
         <img src="https://logos-world.net/wp-content/uploads/2020/11/Nintendo-Logo-1983-2008.png" width="90%">
@@ -235,14 +231,14 @@
         <img src="https://logos-world.net/wp-content/uploads/2021/10/Sega-Symbol.png" width="90%">
       </div>
     </div>
-    <div class="supeTaterAkiEnd1">
+    <div class="supeTaterAkiEnd1 ending">
       <div class="japanBoxContent">
         <h2>You Become Broke After Buying Tons Of Pokemon and Zelda Stuff (END)</h2>
         <img src="https://th.bing.com/th/id/R.3f24d72093689f5b32d92b5d735ed8df?rik=eNix7f%2bldkqKIQ&pid=ImgRaw&r=0"
           width="90%">
       </div>
     </div>
-    <div class="supeTaterAkiEnd2">
+    <div class="supeTaterAkiEnd2 ending">
       <div class="japanBoxContent">
         <h2>You Goon Too Much Looking At Bayonetta And Get Thrown Out (END)</h2>
         <!--Do ts later frfr cuz too much goon-->
@@ -251,7 +247,7 @@
           width="90%">
       </div>
     </div>
-    <div class="shrineAki">
+    <div class="shrineAki option">
       <div class="japanBoxContent">
         <button class="shrine1">Pray</button>
         <img src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f64f.svg" width="90%">
@@ -261,13 +257,13 @@
         <img src="https://th.bing.com/th/id/OIP.PyTXIJNon1sy2Stdc17Y3wHaGa?w=206&h=180&c=7&r=0&o=5&pid=1.7" width="90%">
       </div>
     </div>
-    <div class="shrineAkiEnd1">
+    <div class="shrineAkiEnd1 ending">
       <div class="japanBoxContent">
         <h2>You Step On Dookie On Your Way Back To Your Hotel (END)</h2>
         <img src="https://m.media-amazon.com/images/I/51P+8+SGhPL._UF894,1000_QL80_.jpg" width="90%">
       </div>
     </div>
-    <div class="shrineAkiEnd2">
+    <div class="shrineAkiEnd2 ending">
       <div class="japanBoxContent">
         <h2>You Buy A Lottery Ticket But Your Luck Is Absolute Dookie, It Seems Like Praying Didn't Work (END)</h2>
         <img
@@ -275,8 +271,8 @@
           width="90%">
       </div>
     </div>
-
-    <div class="shibuya">
+    <!--Shibuya-->
+    <div class="shibuya option">
       <div class="japanBoxContent">
         <button class="shbya1">The National Museum of Modern Art Tokyo</button>
         <img src="https://lh3.googleusercontent.com/p/AF1QipMRTAdKkHneAP-1lCDnAg6Qonhu78k7XTqx907k=s680-w680-h510"
@@ -295,7 +291,7 @@
           width="90%">
       </div>
     </div>
-    <div class="museumShbya">
+    <div class="museumShbya option">
       <div class="japanBoxContent">
         <button class="museum1">Steal Something</button>
         <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Nabbit_Render_2023.png" width="90%">
@@ -305,13 +301,13 @@
         <img src="https://www.krispykreme.com/getattachment/be636956-46f6-4dcb-afd2-a45b1681f756/imagename" width="90%">
       </div>
     </div>
-    <div class="museumShbyaEnd1">
+    <div class="museumShbyaEnd1 ending">
       <div class="japanBoxContent">
         <h2>You Trip And Get Caught Like A Dummy (END)</h2>
         <img src="https://m.media-amazon.com/images/I/71rJYlv0r-L.jpg" width="90%">
       </div>
     </div>
-    <div class="museumShbyaEnd2">
+    <div class="museumShbyaEnd2 ending">
       <div class="japanBoxContent">
         <h2>There Was A Noise Complaint And You Get Kicked Out (END)</h2>
         <img
@@ -319,7 +315,7 @@
           width="90%">
       </div>
     </div>
-    <div class="shrineShbya">
+    <div class="shrineShbya option">
       <div class="japanBoxContent">
         <button class="shrineShbya1">Take Photos</button>
         <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4f8.png" width="90%">
@@ -329,28 +325,168 @@
         <img src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f64f.svg" width="90%">
       </div>
     </div>
-    <div class="shrineShbyaEnd1">
+    <div class="shrineShbyaEnd1 ending">
       <div class="japanBoxContent">
         <h2>You Took Too Much Photographs And Was So Immersed, That You Forgot To Buy Souvenirs (END)</h2>
         <img src="https://us-tuna-sounds-images.voicemod.net/46db40e6-a932-4b58-9f53-11e04095ed10-1707335034416.jpg"
           width="90%">
       </div>
     </div>
-    <div class="shrineShbyaEnd2">
+    <div class="shrineShbyaEnd2 ending">
       <div class="japanBoxContent">
         <h2>Praying Didn't Stop The Yakuza From Jumping You (END)</h2>
+        <img src="https://pbs.twimg.com/profile_images/1361742760286564357/agYhtkDu_400x400.jpg" width="90%">
+      </div>
+    </div>
+    <div class="parkShbyaEnd ending">
+      <div class="japanBoxContent">
+        <h2>You Get A Date, But She Gets Too Freaky And You Run (END)</h2>
+        <img src="https://th.bing.com/th/id/OIP.UHfoiR4vgyjTrmMxh1p6JwHaFA?rs=1&pid=ImgDetMain" width="90%">
+      </div>
+    </div>
+
+    <!--Ura Namba-->
+    <div class="uraNamba option">
+      <div class="japanBoxContent">
+        <button class="ura1">Try Some Street Food</button>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOu6lpWl9w9qGhJlQGE9Fm9xNqKeLOICbYiHFvb=s1360-w1360-h1020"
+          width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="ura2">Go On A Private Night Tour</button>
+        <img src="https://www.planmyjapan.com/wp-content/uploads/2023/09/super-potato-40.jpg" width="90%">
+      </div>
+    </div>
+    <div class="foodNamba option">
+      <div class="japanBoxContent">
+        <button class="uraFood1">Daifuku Mochi</button>
+        <img src="https://www.animate.co.jp/assets/uploads/2024/08/1727659444-93a43851f6edca4c809730bb2c71c4d4.jpg"
+          width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="uraFood2">Torikara</button>
         <img
-          src="https://pbs.twimg.com/profile_images/1361742760286564357/agYhtkDu_400x400.jpg"
+          src="https://static.vecteezy.com/system/resources/previews/003/498/798/non_2x/open-white-door-on-a-white-wall-illustration-free-vector.jpg"
+          width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="uraFood3">Udon</button>
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/003/498/798/non_2x/open-white-door-on-a-white-wall-illustration-free-vector.jpg"
           width="90%">
       </div>
     </div>
-    <div class="parkShbyaEnd">
+    <div class="foodNambaEnd1 ending">
       <div class="japanBoxContent">
-        <h2>You Get A Date, But She Gets Too Freaky And You Run (END)</h2>
-        <!--Do this later frfr cuz yeah-->
-        <img src="https://m.media-amazon.com/images/I/51P+8+SGhPL._UF894,1000_QL80_.jpg" width="90%">
+        <h2>They Mochi Was Too Sticky And You Die From Asphyxiation (END)</h2>
+        <img
+          src="https://media.istockphoto.com/id/894322380/vector/red-broken-heart.jpg?s=612x612&w=0&k=20&c=OsPaG4VmzLIKeoAUTipD1TUkPXPjeSqClhNij_en95k="
+          width="90%">
       </div>
     </div>
+    <div class="foodNambaEnd2 ending">
+      <div class="japanBoxContent">
+        <h2>Someone In A Chicken Costume Rushes You And Takes All Your Money (END)</h2>
+        <img
+          src="https://preview.redd.it/dark-fnaf-theory-why-the-springlock-failure-sprite-convulses-v0-2f1b8078h1sd1.jpg?width=222&format=pjpg&auto=webp&s=06d525862f7cda8d0900f71ba9b843a9239df7e4"
+          width="90%">
+      </div>
+    </div>
+    <div class="foodNambaEnd3 ending">
+      <div class="japanBoxContent">
+        <h2>They Udon Is Hotter Than Expected And You Get Set On Fire Somehow (END)</h2>
+        <img
+          src="https://preview.redd.it/dark-fnaf-theory-why-the-springlock-failure-sprite-convulses-v0-2f1b8078h1sd1.jpg?width=222&format=pjpg&auto=webp&s=06d525862f7cda8d0900f71ba9b843a9239df7e4"
+          width="90%">
+      </div>
+    </div>
+    <div class="tourNamba option">
+      <div class="japanBoxContent">
+        <button class="uraTour1">Nara Park</button>
+        <img src="https://logos-world.net/wp-content/uploads/2020/11/Nintendo-Logo-1983-2008.png" width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="uraTour2">Go Bar Hopping</button>
+        <img src="https://logos-world.net/wp-content/uploads/2021/10/Sega-Symbol.png" width="90%">
+      </div>
+    </div>
+    <div class="tourNambaEnd1 ending">
+      <div class="japanBoxContent">
+        <h2>You Feed Some Deers During The Tour And Found Yourself Some New Friends (END)</h2>
+        <img src="https://th.bing.com/th/id/R.3f24d72093689f5b32d92b5d735ed8df?rik=eNix7f%2bldkqKIQ&pid=ImgRaw&r=0"
+          width="90%">
+      </div>
+    </div>
+    <div class="tourNambaEnd2 ending">
+      <div class="japanBoxContent">
+        <h2>You Become Too Drunk And Black Out (END)</h2>
+        <img
+          src="https://preview.redd.it/dark-fnaf-theory-why-the-springlock-failure-sprite-convulses-v0-2f1b8078h1sd1.jpg?width=222&format=pjpg&auto=webp&s=06d525862f7cda8d0900f71ba9b843a9239df7e4"
+          width="90%">
+      </div>
+    </div>
+    <!--Osaka Castle-->
+    <div class="oskCastle option">
+      <div class="japanBoxContent">
+        <button class="castle1">Break Away</button>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMRTAdKkHneAP-1lCDnAg6Qonhu78k7XTqx907k=s680-w680-h510"
+          width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="castle2">Stay</button>
+        <img
+          src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB_EtZyiDunOJHft_BtsKsPNuG0dJXdjIvYTCS1fs9CNYnqv3DSI70YFOv6ovYDftdiu-j3DwdtNr-ZR-MFIYJiQG4u6x6RQLCY1h76KTurDinLCEzEDg5I-4PCQ8xU_b2wT8iEw=s680-w680-h510"
+          width="90%">
+      </div>
+    </div>
+    <div class="oskArmor1 option">
+      <div class="japanBoxContent">
+        <button class="armor1">Put On The Armor</button>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Nabbit_Render_2023.png" width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="armor2">Knock It Over</button>
+        <img src="https://www.krispykreme.com/getattachment/be636956-46f6-4dcb-afd2-a45b1681f756/imagename" width="90%">
+      </div>
+    </div>
+    <div class="oskCastleEnd1 ending">
+      <div class="japanBoxContent">
+        <h2>You Get Caught And Tased Before You Are Able To Put It On (END)</h2>
+        <img src="https://m.media-amazon.com/images/I/71rJYlv0r-L.jpg" width="90%">
+      </div>
+    </div>
+    <div class="oskCastleEnd2 ending">
+      <div class="japanBoxContent">
+        <h2>The Armor Comes To Life And Beats You Up (END)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/1024px-Speaker_Icon.svg.png"
+          width="90%">
+      </div>
+    </div>
+    <div class="oskArmor2 option">
+      <div class="japanBoxContent">
+        <button class="armour1">Take Photos</button>
+        <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4f8.png" width="90%">
+      </div>
+      <div class="japanBoxContent">
+        <button class="armour2">Buy Souvenirs</button>
+        <img src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f64f.svg" width="90%">
+      </div>
+    </div>
+    <div class="oskCastleEnd3 ending">
+      <div class="japanBoxContent">
+        <h2>You Didn't See The No Photos Sign And All The Shiny Objects Reflect Your Flash Blinding You (END)</h2>
+        <img src="https://us-tuna-sounds-images.voicemod.net/46db40e6-a932-4b58-9f53-11e04095ed10-1707335034416.jpg"
+          width="90%">
+      </div>
+    </div>
+    <div class="oskCastleEnd4 ending">
+      <div class="japanBoxContent">
+        <h2>Praying Didn't Stop The Yakuza From Jumping You (END)</h2>
+        <img src="https://pbs.twimg.com/profile_images/1361742760286564357/agYhtkDu_400x400.jpg" width="90%">
+      </div>
+    </div>
+  </div>
   </div>
 </body>
 
