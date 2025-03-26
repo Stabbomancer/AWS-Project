@@ -4,6 +4,18 @@ let startButton2 = document.querySelector(".startButton2");
 let startButton3 = document.querySelector(".startButton3");
 let restart = document.querySelector(".restart");
 let title = document.querySelector(".title");
+
+let usStart = document.querySelector(".usBox1");
+let usOption1 = document.querySelector(".us1");
+let usOption2 = document.querySelector(".us2");
+let usOption3 = document.querySelector(".us3");
+let usOption4 = document.querySelector(".us4");
+let newyorkStart = document.querySelector(".usBox2");
+let floridaStart = document.querySelector(".usBox3");
+let nyOption1 = document.querySelector(".ny1");
+let usBox = document.querySelector(".usBoxContent");
+
+
 let japanStart = document.querySelector(".japanBox1");
 let jpOption1 = document.querySelector(".jp1");
 let jpOption2 = document.querySelector(".jp2");
@@ -234,4 +246,5 @@ usOption4.addEventListener("click", function () {
 nyOption1.addEventListener("click", function () {
   newyorkStart.style.display = "none";
   title.innerHTML = "Test";
+});
 });
