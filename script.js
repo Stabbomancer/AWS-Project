@@ -39,6 +39,23 @@ let lvOption3 = document.querySelector(".lv3");
 let lvOption4 = document.querySelector(".lv4");
 
 //Germany
+//GRCities
+let GermanyStart = document.querySelector(".GermanyBox1");
+let GrOption1 = document.querySelector(".Gr1");
+let GrOption2 = document.querySelector(".Gr2");
+let GrOption3 = document.querySelector(".Gr3");
+//GRBerlin
+let BerlinStart = document.querySelector(".GermanyBox2");
+let BrOption1 = document.querySelector(".Br1")
+let BrOption2 = document.querySelector(".Br2")
+let BrOption3 = document.querySelector(".Br3")
+//GRHamburg
+let HamburgStart = document.querySelector(".GermanyBox3");
+let HbOption1 = document.querySelector(".Hb1")
+let HbOption2 = document.querySelector(".Hb2")
+let HbOption3 = document.querySelector(".Hb3")
+//GRMunich
+let MunichStart = document.querySelector(".GermanyBox4");
 
 //Japan
 //JPCities
@@ -52,19 +69,7 @@ let tkyOption1 = document.querySelector(".tky1");
 let tkyOption2 = document.querySelector(".tky2");
 let tkyOption3 = document.querySelector(".tky3");
 let tkyOption4 = document.querySelector(".tky4");
-//JPOsaka
-let osakaStart = document.querySelector(".japanBox3");
-let oskOption1 = document.querySelector(".osk1");
-let oskOption2 = document.querySelector(".osk2");
-let oskOption3 = document.querySelector(".osk3");
-let oskOption4 = document.querySelector(".osk4");
-//JPHokkaido
-let hokkaidoStart = document.querySelector(".japanBox4");
-let hkdoOption1 = document.querySelector(".hkdo1");
-let hkdoOption2 = document.querySelector(".hkdo2");
-let hkdoOption3 = document.querySelector(".hkdo3");
-let hkdoOption4 = document.querySelector(".hkdo4");
-
+//TKAkihabara
 let akihabara = document.querySelector(".akihabara");
 let akiOption1 = document.querySelector(".aki1");
 let akiOption2 = document.querySelector(".aki2");
@@ -84,7 +89,7 @@ let shrineOption1 = document.querySelector(".shrine1");
 let shrineOption2 = document.querySelector(".shrine2");
 let shrineAkiEnd1 = document.querySelector(".shrineAkiEnd1");
 let shrineAkiEnd2 = document.querySelector(".shrineAkiEnd2");
-
+//TKShibuya
 let shibuya = document.querySelector(".shibuya");
 let shbyaOption1 = document.querySelector(".shbya1");
 let shbyaOption2 = document.querySelector(".shbya2");
@@ -100,7 +105,13 @@ let shrineShbyaEnd2 = document.querySelector(".shrineShbyaEnd2");
 let shrineShbyaOption1 = document.querySelector(".shrineShbya1");
 let shrineShbyaOption2 = document.querySelector(".shrineShbya2");
 let parkShbyaEnd1 = document.querySelector(".parkShbyaEnd");
-
+//JPOsaka
+let osakaStart = document.querySelector(".japanBox3");
+let oskOption1 = document.querySelector(".osk1");
+let oskOption2 = document.querySelector(".osk2");
+let oskOption3 = document.querySelector(".osk3");
+let oskOption4 = document.querySelector(".osk4");
+//OSKUraNamba
 let uraNamba = document.querySelector(".uraNamba");
 let uraOption1 = document.querySelector(".ura1");
 let uraOption2 = document.querySelector(".ura2");
@@ -116,7 +127,7 @@ let uraTourOption1 = document.querySelector(".uraTour1");
 let uraTourOption2 = document.querySelector(".uraTour2");
 let tourNambaEnd1 = document.querySelector(".tourNambaEnd1");
 let tourNambaEnd2 = document.querySelector(".tourNambaEnd2");
-
+//OSKCastle
 let oskCastle = document.querySelector(".oskCastle");
 let castleOption1 = document.querySelector(".castle1");
 let castleOption2 = document.querySelector(".castle2");
@@ -130,7 +141,13 @@ let armourOption1 = document.querySelector(".armour1");
 let armourOption2 = document.querySelector(".armour2");
 let oskCastleEnd3 = document.querySelector(".oskCastleEnd3");
 let oskCastleEnd4 = document.querySelector(".oskCastleEnd4");
-
+//JPHokkaido
+let hokkaidoStart = document.querySelector(".japanBox4");
+let hkdoOption1 = document.querySelector(".hkdo1");
+let hkdoOption2 = document.querySelector(".hkdo2");
+let hkdoOption3 = document.querySelector(".hkdo3");
+let hkdoOption4 = document.querySelector(".hkdo4");
+//HKDNationalPark
 let daiPark = document.querySelector(".daiPark");
 let daiParkOption1 = document.querySelector(".dai1");
 let daiParkOption2 = document.querySelector(".dai2");
@@ -142,23 +159,26 @@ let hotspringsEnd2 = document.querySelector(".hotspringsEnd2");
 let ginsenDai = document.querySelector(".ginsenDai");
 let ginsenOption1 = document.querySelector(".ginsen1");
 let ginsenOption2 = document.querySelector(".ginsen2");
-//let ginsenDaiEnd1 = document.querySelector(".ginsenDaiEnd1");
-//let ginsenDaiEnd2 = document.querySelector(".ginsenDaiEnd2");
-
+let ginsenDaiEnd1 = document.querySelector(".ginsenDaiEnd1");
+let ginsenDaiEnd2 = document.querySelector(".ginsenDaiEnd2");
+//HKDSapporo
 let sapporo = document.querySelector(".sapporo");
 let sapoOption1 = document.querySelector(".sapo1");
 let sapoOption2 = document.querySelector(".sapo2");
-//let museumShbya = document.querySelector(".museumShbya");
-//let museumOption1 = document.querySelector(".museum1");
-//let museumOption2 = document.querySelector(".museum2");
-//let museumShbyaEnd1 = document.querySelector(".museumShbyaEnd1");
-//let museumShbyaEnd2 = document.querySelector(".museumShbyaEnd2");
-//let shrineShbya = document.querySelector(".shrineShbya");
-//let shrineShbyaEnd1 = document.querySelector(".shrineShbyaEnd1");
-//let shrineShbyaEnd2 = document.querySelector(".shrineShbyaEnd2");
-//let shrineShbyaOption1 = document.querySelector(".shrineShbya1");
-//let shrineShbyaOption2 = document.querySelector(".shrineShbya2");
-//let parkShbyaEnd1 = document.querySelector(".parkShbyaEnd");
+let museumSapo = document.querySelector(".museumSapo");
+let beerOption1 = document.querySelector(".beer1");
+let beerOption2 = document.querySelector(".beer2");
+let beerOption3 = document.querySelector(".beer3");
+let museumSapoEnd1 = document.querySelector(".museumSapoEnd1");
+let museumSapoEnd2 = document.querySelector(".museumSapoEnd2");
+let museumSapoEnd3 = document.querySelector(".museumSapoEnd3");
+let parkSapo = document.querySelector(".parkSapo");
+let parkOdrOption1 = document.querySelector(".parkOdr1");
+let parkOdrOption2 = document.querySelector(".parkOdr2");
+let parkSapoEnd1 = document.querySelector(".parkSapoEnd1");
+let parkSapoEnd2 = document.querySelector(".parkSapoEnd2");
+
+
 //Restart Button
 restart.addEventListener("click", function () {
   location.reload();
@@ -173,6 +193,7 @@ startButton1.addEventListener("click", function () {
 startButton2.addEventListener("click", function () {
   start.style.display = "none";
   title.innerHTML = "Where Would You Like To Go?";
+  GermanyStart.style.display = "flex";
 });
 startButton3.addEventListener("click", function () {
   title.innerHTML = "Where Would You Like To Go?";
@@ -440,53 +461,54 @@ springOption2.addEventListener("click", function () {
   title.innerHTML = "";
   hotspringsEnd2.style.display = "flex";
 });
-taterOption1.addEventListener("click", function () {
-  supeTaterAki.style.display = "none";
+ginsenOption1.addEventListener("click", function () {
+  ginsenDai.style.display = "none";
   title.innerHTML = "";
-  supeTaterAkiEnd1.style.display = "flex";
+  ginsenDaiEnd1.style.display = "flex";
 });
-taterOption2.addEventListener("click", function () {
-  supeTaterAki.style.display = "none";
+ginsenOption1.addEventListener("click", function () {
+  ginsenDai.style.display = "none";
   title.innerHTML = "";
-  supeTaterAkiEnd2.style.display = "flex";
+  ginsenDaiEnd1.style.display = "flex";
 });
 
-shbyaOption1.addEventListener("click", function () {
-  shibuya.style.display = "none";
+sapoOption1.addEventListener("click", function () {
+  sapporo.style.display = "none";
   title.innerHTML =
-    "There Are Tons Of Pieces Of Art On Display For People To See";
-  museumShbya.style.display = "flex";
+    "What A Great Place To Drink, What Would You Like To Do?";
+  museumSapo.style.display = "flex";
 });
-shbyaOption2.addEventListener("click", function () {
-  shibuya.style.display = "none";
-  title.innerHTML = "You Happen Upon a Shrine, What Do You Do?";
-  shrineShbya.style.display = "flex";
+sapoOption2.addEventListener("click", function () {
+  sapporo.style.display = "none";
+  title.innerHTML = "What A Beautiful Park In A Concrete Jungle, What Would You Like To Do?";
+  parkSapo.style.display = "flex";
 });
-shbyaOption3.addEventListener("click", function () {
-  shibuya.style.display = "none";
+beerOption1.addEventListener("click", function () {
+  museumSapo.style.display = "none";
   title.innerHTML = "";
-  parkShbyaEnd1.style.display = "flex";
+  museumSapoEnd1.style.display = "flex";
 });
-museumOption1.addEventListener("click", function () {
-  museumShbya.style.display = "none";
+beerOption2.addEventListener("click", function () {
+  museumSapo.style.display = "none";
   title.innerHTML = "";
-  museumShbyaEnd1.style.display = "flex";
+  museumSapoEnd2.style.display = "flex";
 });
-museumOption2.addEventListener("click", function () {
-  museumShbya.style.display = "none";
+beerOption3.addEventListener("click", function () {
+  museumSapo.style.display = "none";
   title.innerHTML = "";
-  museumShbyaEnd2.style.display = "flex";
+  museumSapoEnd3.style.display = "flex";
 });
-shrineShbyaOption1.addEventListener("click", function () {
-  shrineShbya.style.display = "none";
+parkOdrOption1.addEventListener("click", function () {
+  parkSapo.style.display = "none";
   title.innerHTML = "";
-  shrineShbyaEnd1.style.display = "flex";
+  parkSapoEnd1.style.display = "flex";
 });
-shrineShbyaOption2.addEventListener("click", function () {
-  shrineShbya.style.display = "none";
+parkOdrOption2.addEventListener("click", function () {
+  parkSapo.style.display = "none";
   title.innerHTML = "";
-  shrineShbyaEnd2.style.display = "flex";
+  parkSapoEnd2.style.display = "flex";
 });
+
 //US
 usOption1.addEventListener("click", function () {
   usStart.style.display = "none";
@@ -508,6 +530,7 @@ usOption4.addEventListener("click", function () {
   title.innerHTML = "Where Would You Like To Stay On This Trip?";
   lasvegasStart.style.display = "flex";
 });
+//New York Hotels
 nyOption1.addEventListener("click", function () {
   newyorkStart.style.display = "none";
   title.innerHTML = "Test";
@@ -524,6 +547,7 @@ nyOption4.addEventListener("click", function () {
   newyorkStart.style.display = "none";
   title.innerHTML = "Test";
 });
+//Florida Hotels
 flOption1.addEventListener("click", function () {
   floridaStart.style.display = "none";
   title.innerHTML = "Test";
@@ -539,4 +563,55 @@ flOption3.addEventListener("click", function () {
 flOption4.addEventListener("click", function () {
   floridaStart.style.display = "none";
   title.innerHTML = "Test";
+});
+//Los Angeles Hotels
+laOption1.addEventListener("click", function () {
+  losangelesStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+laOption2.addEventListener("click", function () {
+  losangelesStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+laOption3.addEventListener("click", function () {
+  losangelesStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+laOption4.addEventListener("click", function () {
+  losangelesStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+//Las Vegas Hotels
+lvOption1.addEventListener("click", function () {
+  lasvegasStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+lvOption2.addEventListener("click", function () {
+  lasvegasStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+lvOption3.addEventListener("click", function () {
+  lasvegasStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+lvOption4.addEventListener("click", function () {
+  lasvegasStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+
+//Germany
+GrOption1.addEventListener("click", function () {
+  GermanyStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  BerlinStart.style.display = "flex";
+});
+GrOption2.addEventListener("click", function () {
+  GermanyStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  Hamburgstart.style.display = "flex";
+});
+GrOption3.addEventListener("click", function () {
+  GermanyStart.style.display = "none";
+  title.innerHTML = "Where Would You Like To Stay On This Trip?";
+  MunichStart.style.display = "flex";
 });

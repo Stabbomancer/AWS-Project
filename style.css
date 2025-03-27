@@ -1,3 +1,4 @@
+/* Add "option" as a class in HTML for any page that is a choice for the user */
 .option {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -8,6 +9,7 @@
     display: none
 }
 
+/* Add "ending" as a class in HTML for any page that is an ending */
 .ending {
     margin: auto;
     padding: 10px;
@@ -69,7 +71,8 @@ h1 {
 }
 
 .japanBoxContent,
-.usBoxContent {
+.usBoxContent,
+.GermanyBoxContent {
     padding: 5px;
     height: 400px;
     width: 400px;
