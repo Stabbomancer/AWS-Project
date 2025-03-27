@@ -131,34 +131,6 @@ let armourOption2 = document.querySelector(".armour2");
 let oskCastleEnd3 = document.querySelector(".oskCastleEnd3");
 let oskCastleEnd4 = document.querySelector(".oskCastleEnd4");
 
-let daiPark = document.querySelector(".daiPark");
-let daiParkOption1 = document.querySelector(".dai1");
-let daiParkOption2 = document.querySelector(".dai2");
-let hotspringsDai = document.querySelector(".hotspringsDai");
-let springOption1 = document.querySelector(".spring1");
-let springOption2 = document.querySelector(".spring2");
-let hotspringsEnd1 = document.querySelector(".hotspringsEnd1");
-let hotspringsEnd2 = document.querySelector(".hotspringsEnd2");
-let ginsenDai = document.querySelector(".ginsenDai");
-let ginsenOption1 = document.querySelector(".ginsen1");
-let ginsenOption2 = document.querySelector(".ginsen2");
-//let ginsenDaiEnd1 = document.querySelector(".ginsenDaiEnd1");
-//let ginsenDaiEnd2 = document.querySelector(".ginsenDaiEnd2");
-
-let sapporo = document.querySelector(".sapporo");
-let sapoOption1 = document.querySelector(".sapo1");
-let sapoOption2 = document.querySelector(".sapo2");
-//let museumShbya = document.querySelector(".museumShbya");
-//let museumOption1 = document.querySelector(".museum1");
-//let museumOption2 = document.querySelector(".museum2");
-//let museumShbyaEnd1 = document.querySelector(".museumShbyaEnd1");
-//let museumShbyaEnd2 = document.querySelector(".museumShbyaEnd2");
-//let shrineShbya = document.querySelector(".shrineShbya");
-//let shrineShbyaEnd1 = document.querySelector(".shrineShbyaEnd1");
-//let shrineShbyaEnd2 = document.querySelector(".shrineShbyaEnd2");
-//let shrineShbyaOption1 = document.querySelector(".shrineShbya1");
-//let shrineShbyaOption2 = document.querySelector(".shrineShbya2");
-//let parkShbyaEnd1 = document.querySelector(".parkShbyaEnd");
 //Restart Button
 restart.addEventListener("click", function () {
   location.reload();
@@ -231,40 +203,32 @@ oskOption2.addEventListener("click", function () {
 });
 oskOption3.addEventListener("click", function () {
   osakaStart.style.display = "none";
-  title.innerHTML =
-    "This Hotel is Near Osaka Castle, So You Go There For A Tour";
+  title.innerHTML = "This Hotel is Near Osaka Castle, So You Go There For A Tour";
   oskCastle.style.display = "flex";
 });
 oskOption4.addEventListener("click", function () {
   osakaStart.style.display = "none";
-  title.innerHTML =
-    "This Hotel is Near Osaka Castle, So You Go There For A Tour";
+  title.innerHTML = "This Hotel is Near Osaka Castle, So You Go There For A Tour";
   oskCastle.style.display = "flex";
 });
 //Japan || Hokkaido Hotels
 hkdoOption1.addEventListener("click", function () {
   hokkaidoStart.style.display = "none";
-  title.innerHTML =
-    "This Hotel is Near Daisetsuzan National Park, Where Would You Like To Go?";
-  daiPark.style.display = "flex";
+  title.innerHTML = "Test";
 });
 hkdoOption2.addEventListener("click", function () {
   hokkaidoStart.style.display = "none";
-  title.innerHTML =
-    "This Hotel is Near Daisetsuzan National Park, Where Would You Like To Go?";
-  daiPark.style.display = "flex";
+  title.innerHTML = "Test";
 });
 hkdoOption3.addEventListener("click", function () {
   hokkaidoStart.style.display = "none";
-  title.innerHTML = "This Hotel is Near Sapporo, Where Would You Like To Go?";
-  sapporo.style.display = "flex";
+  title.innerHTML = "Test";
 });
 hkdoOption4.addEventListener("click", function () {
   hokkaidoStart.style.display = "none";
-  title.innerHTML = "This Hotel is Near Sapporo, Where Would You Like To Go";
-  sapporo.style.display = "flex";
+  title.innerHTML = "Test";
 });
-//Tokyo
+
 akiOption1.addEventListener("click", function () {
   akihabara.style.display = "none";
   title.innerHTML =
@@ -349,15 +313,17 @@ shrineShbyaOption2.addEventListener("click", function () {
   title.innerHTML = "";
   shrineShbyaEnd2.style.display = "flex";
 });
-//Osaka
+
 uraOption1.addEventListener("click", function () {
   uraNamba.style.display = "none";
-  title.innerHTML = "Which Streetfood Would You Like to Try?";
+  title.innerHTML =
+    "Which Streetfood Would You Like to Try?";
   foodNamba.style.display = "flex";
 });
 uraOption2.addEventListener("click", function () {
   uraNamba.style.display = "none";
-  title.innerHTML = "Which Tour Would You Like To Go On?";
+  title.innerHTML =
+    "Which Tour Would You Like To Go On?";
   tourNamba.style.display = "flex";
 });
 uraFoodOption1.addEventListener("click", function () {
@@ -389,13 +355,12 @@ uraTourOption2.addEventListener("click", function () {
 castleOption1.addEventListener("click", function () {
   oskCastle.style.display = "none";
   title.innerHTML =
-    "After Looking Around, Some Samurai Armor Catches Your Attention, What will You Do?";
+    "";
   oskArmor1.style.display = "flex";
 });
 castleOption2.addEventListener("click", function () {
   oskCastle.style.display = "none";
-  title.innerHTML =
-    "You Are Distracted In The Middle Of The Tour, What Will You Do";
+  title.innerHTML = "You Happen Upon a Shrine, What Do You Do?";
   oskArmor2.style.display = "flex";
 });
 armorOption1.addEventListener("click", function () {
@@ -417,75 +382,6 @@ armourOption2.addEventListener("click", function () {
   oskArmor2.style.display = "none";
   title.innerHTML = "";
   oskCastleEnd4.style.display = "flex";
-});
-//Hokkaido
-daiParkOption1.addEventListener("click", function () {
-  daiPark.style.display = "none";
-  title.innerHTML = "What Action Would You Like To Commit?";
-  hotspringsDai.style.display = "flex";
-});
-daiParkOption2.addEventListener("click", function () {
-  daiPark.style.display = "none";
-  title.innerHTML =
-    "What A Lovely Day For Hiking, What Would You Like To Do While On This Little Escapade?";
-  ginsenDai.style.display = "flex";
-});
-springOption1.addEventListener("click", function () {
-  hotspringsDai.style.display = "none";
-  title.innerHTML = "";
-  hotspringsEnd1.style.display = "flex";
-});
-springOption2.addEventListener("click", function () {
-  hotspringsDai.style.display = "none";
-  title.innerHTML = "";
-  hotspringsEnd2.style.display = "flex";
-});
-taterOption1.addEventListener("click", function () {
-  supeTaterAki.style.display = "none";
-  title.innerHTML = "";
-  supeTaterAkiEnd1.style.display = "flex";
-});
-taterOption2.addEventListener("click", function () {
-  supeTaterAki.style.display = "none";
-  title.innerHTML = "";
-  supeTaterAkiEnd2.style.display = "flex";
-});
-
-shbyaOption1.addEventListener("click", function () {
-  shibuya.style.display = "none";
-  title.innerHTML =
-    "There Are Tons Of Pieces Of Art On Display For People To See";
-  museumShbya.style.display = "flex";
-});
-shbyaOption2.addEventListener("click", function () {
-  shibuya.style.display = "none";
-  title.innerHTML = "You Happen Upon a Shrine, What Do You Do?";
-  shrineShbya.style.display = "flex";
-});
-shbyaOption3.addEventListener("click", function () {
-  shibuya.style.display = "none";
-  title.innerHTML = "";
-  parkShbyaEnd1.style.display = "flex";
-});
-museumOption1.addEventListener("click", function () {
-  museumShbya.style.display = "none";
-  title.innerHTML = "";
-  museumShbyaEnd1.style.display = "flex";
-});
-museumOption2.addEventListener("click", function () {
-  museumShbya.style.display = "none";
-  title.innerHTML = "";
-  museumShbyaEnd2.style.display = "flex";
-});
-shrineShbyaOption1.addEventListener("click", function () {
-  shrineShbya.style.display = "none";
-  title.innerHTML = "";
-  shrineShbyaEnd1.style.display = "flex";
-});
-shrineShbyaOption2.addEventListener("click", function () {
-  shrineShbya.style.display = "none";
-  title.innerHTML = "";
-  shrineShbyaEnd2.style.display = "flex";
 });
 //US
 usOption1.addEventListener("click", function () {
