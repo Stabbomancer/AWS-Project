@@ -516,3 +516,27 @@ nyOption2.addEventListener("click", function () {
   newyorkStart.style.display = "none";
   title.innerHTML = "Test";
 });
+nyOption3.addEventListener("click", function () {
+  newyorkStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+nyOption4.addEventListener("click", function () {
+  newyorkStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+flOption1.addEventListener("click", function () {
+  floridaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+flOption2.addEventListener("click", function () {
+  floridaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+flOption3.addEventListener("click", function () {
+  floridaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
+flOption4.addEventListener("click", function () {
+  floridaStart.style.display = "none";
+  title.innerHTML = "Test";
+});
