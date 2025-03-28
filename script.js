@@ -37,6 +37,16 @@ let lvOption1 = document.querySelector(".lv1");
 let lvOption2 = document.querySelector(".lv2");
 let lvOption3 = document.querySelector(".lv3");
 let lvOption4 = document.querySelector(".lv4");
+//New York Pendry Manhattan West
+let pendrywest = document.querySelector(".pmw");
+let pmwOption1 = document.querySelector(".pmw1");
+let pmwOption2 = document.querySelector(".pmw2");
+let pmwOption3 = document.querySelector(".pmw3");
+//New York The Pierre
+let pierre = document.querySelector(".pierre");
+let pierreOption1 = document.querySelector(".pierre1");
+let pierreOption2 = document.querySelector(".pierre2");
+let pierreOption3 = document.querySelector(".pierre3");
 
 //Germany
 //GRCities
@@ -533,19 +543,23 @@ usOption4.addEventListener("click", function () {
 //New York Hotels
 nyOption1.addEventListener("click", function () {
   newyorkStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near midtown Manhattan, what would you like to do?";
+  pendrywest.style.display = "flex"
 });
 nyOption2.addEventListener("click", function () {
   newyorkStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near Central Park, what would you like to do?";
+  pierre.style.display = "flex"
 });
 nyOption3.addEventListener("click", function () {
   newyorkStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is in lower Manahattan, what would you like to do?";
+  cloudone.style.display = "flex"
 });
 nyOption4.addEventListener("click", function () {
   newyorkStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near JFK, what would you like to do?";
+  hyatt.style.display = "flex"
 });
 //Florida Hotels
 flOption1.addEventListener("click", function () {
@@ -598,6 +612,34 @@ lvOption4.addEventListener("click", function () {
   lasvegasStart.style.display = "none";
   title.innerHTML = "Test";
 });
+//New York pmw
+pmwOption1.addEventListener("click", function () {
+  pendrywest.style.display = "none";
+  title.innerHTML ="test";
+});
+pmwOption2.addEventListener("click", function () {
+  pendrywest.style.display = "none";
+  title.innerHTML ="test";
+});
+pmwOption3.addEventListener("click", function () {
+  pendrywest.style.display = "none";
+  title.innerHTML ="test";
+  //New York || pierre
+});
+pierreOption1.addEventListener("click", function () {
+  pierre.style.display = "none";
+  title.innerHTML ="test";
+});
+pierreOption2.addEventListener("click", function () {
+  pierre.style.display = "none";
+  title.innerHTML ="test";
+});
+pierreOption3.addEventListener("click", function () {
+  pierre.style.display = "none";
+  title.innerHTML ="test";
+});
+
+
 
 //Germany
 GrOption1.addEventListener("click", function () {
