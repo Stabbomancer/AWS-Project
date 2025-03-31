@@ -37,16 +37,45 @@ let lvOption1 = document.querySelector(".lv1");
 let lvOption2 = document.querySelector(".lv2");
 let lvOption3 = document.querySelector(".lv3");
 let lvOption4 = document.querySelector(".lv4");
-//New York Pendry Manhattan West
+
+//New York || Pendry Manhattan West
 let pendrywest = document.querySelector(".pmw");
 let pmwOption1 = document.querySelector(".pmw1");
 let pmwOption2 = document.querySelector(".pmw2");
-let pmwOption3 = document.querySelector(".pmw3");
-//New York The Pierre
+//New York || Pendry Manhattan West || Union Square
+let unionsquare = document.querySelector(".unionsquare");
+let unionOption1 = document.querySelector(".union1");
+let unionOption2 = document.querySelector(".union2");
+let unionOption3 = document.querySelector(".union3");
+//New York || Pendry Manhattan West || Times Square
+let timessquare = document.querySelector(".timessquare");
+let timesOption1 = document.querySelector(".times1");
+let timesOption2 = document.querySelector(".times2");
+let timesEnd1 = document.querySelector(".timesend1");
+let timesEnd2 = document.querySelector(".timesend2");
+//New York || Pendry Manhattan West || Times Square || Broadway
+let broadway = document.querySelector(".broadway");
+let broadwayOption1 = document.querySelector(".bwy1");
+let broadwayOption2 = document.querySelector(".bwy2");
+let broadwayOption3 = document.querySelector(".bwy3");
+let bwyEnd1 = document.querySelector(".timesend2");
+//New York || The Pierre
 let pierre = document.querySelector(".pierre");
 let pierreOption1 = document.querySelector(".pierre1");
 let pierreOption2 = document.querySelector(".pierre2");
 let pierreOption3 = document.querySelector(".pierre3");
+
+//New York || The Cloudone
+let cloudone = document.querySelector(".cloudone");
+let coOption1 = document.querySelector(".co1");
+let coOption2 = document.querySelector(".co2");
+let coOption3 = document.querySelector(".co3");
+
+//New York || Hyatt Regency
+let hyatt = document.querySelector(".cloudone");
+let hyattOption1 = document.querySelector(".co1");
+let hyattOption2 = document.querySelector(".co2");
+let hyattOption3 = document.querySelector(".co3");
 
 //Germany
 //GRCities
@@ -612,20 +641,55 @@ lvOption4.addEventListener("click", function () {
   lasvegasStart.style.display = "none";
   title.innerHTML = "Test";
 });
-//New York pmw
+//New York || pmw
 pmwOption1.addEventListener("click", function () {
   pendrywest.style.display = "none";
-  title.innerHTML ="test";
+  title.innerHTML = "Test";
+  unionsquare.style.display = "flex";
 });
 pmwOption2.addEventListener("click", function () {
   pendrywest.style.display = "none";
-  title.innerHTML ="test";
+  title.innerHTML ="As you walk through Times square you spot people dressed as superheroes";
+  timessquare.style.display = "flex";
 });
-pmwOption3.addEventListener("click", function () {
-  pendrywest.style.display = "none";
-  title.innerHTML ="test";
-  //New York || pierre
+//New York || pmw || Union Square
+unionOption1.addEventListener("click", function () {
+  unionsquare.style.display = "none";
+  title.innerHTML ="Test";
 });
+unionOption2.addEventListener("click", function () {
+  unionsquare.style.display = "none";
+  title.innerHTML ="Test";
+});
+//New York || pmw || Times Square
+timesOption1.addEventListener("click", function () {
+  timessquare.style.display = "none";
+  title.innerHTML ="";
+  timesEnd1.style.display = "flex";
+});
+timesOption2.addEventListener("click", function () {
+  timessquare.style.display = "none";
+  title.innerHTML ="Which show will you watch?";
+  broadway.style.display = "flex";
+});
+//New York || pmw || Times Square || bwy
+broadwayOption1.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
+});
+broadwayOption2.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
+});
+broadwayOption3.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
+});
+
+//New York || The Pierre
 pierreOption1.addEventListener("click", function () {
   pierre.style.display = "none";
   title.innerHTML ="test";
@@ -638,7 +702,32 @@ pierreOption3.addEventListener("click", function () {
   pierre.style.display = "none";
   title.innerHTML ="test";
 });
-
+  //New York || The Cloudone
+  coOption1.addEventListener("click", function () {
+    cloudone.style.display = "none";
+    title.innerHTML ="test";
+  });
+  coOption2.addEventListener("click", function () {
+    cloudone.style.display = "none";
+    title.innerHTML ="test";
+  });
+  coOption3.addEventListener("click", function () {
+    cloudone.style.display = "none";
+    title.innerHTML ="test";
+  });
+  //New York || Hyatt Regency
+  hyattOption1.addEventListener("click", function () {
+    hyatt.style.display = "none";
+    title.innerHTML ="test";
+  });
+  hyattOption2.addEventListener("click", function () {
+    hyatt.style.display = "none";
+    title.innerHTML ="test";
+  });
+  hyattOption3.addEventListener("click", function () {
+    hyatt.style.display = "none";
+    title.innerHTML ="test";
+  });
 
 
 //Germany
