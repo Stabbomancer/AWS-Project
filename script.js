@@ -42,7 +42,6 @@ let lvOption4 = document.querySelector(".lv4");
 let pendrywest = document.querySelector(".pmw");
 let pmwOption1 = document.querySelector(".pmw1");
 let pmwOption2 = document.querySelector(".pmw2");
-let pmwOption3 = document.querySelector(".pmw3");
 //New York || Pendry Manhattan West || Union Square
 let unionsquare = document.querySelector(".unionsquare");
 let unionOption1 = document.querySelector(".union1");
@@ -52,7 +51,14 @@ let unionOption3 = document.querySelector(".union3");
 let timessquare = document.querySelector(".timessquare");
 let timesOption1 = document.querySelector(".times1");
 let timesOption2 = document.querySelector(".times2");
-
+let timesEnd1 = document.querySelector(".timesend1");
+let timesEnd2 = document.querySelector(".timesend2");
+//New York || Pendry Manhattan West || Times Square || Broadway
+let broadway = document.querySelector(".broadway");
+let broadwayOption1 = document.querySelector(".bwy1");
+let broadwayOption2 = document.querySelector(".bwy2");
+let broadwayOption3 = document.querySelector(".bwy3");
+let bwyEnd1 = document.querySelector(".timesend2");
 //New York || The Pierre
 let pierre = document.querySelector(".pierre");
 let pierreOption1 = document.querySelector(".pierre1");
@@ -635,7 +641,7 @@ lvOption4.addEventListener("click", function () {
   lasvegasStart.style.display = "none";
   title.innerHTML = "Test";
 });
-//New York pmw
+//New York || pmw
 pmwOption1.addEventListener("click", function () {
   pendrywest.style.display = "none";
   title.innerHTML = "Test";
@@ -645,10 +651,6 @@ pmwOption2.addEventListener("click", function () {
   pendrywest.style.display = "none";
   title.innerHTML ="As you walk through Times square you spot people dressed as superheroes";
   timessquare.style.display = "flex";
-});
-pmwOption3.addEventListener("click", function () {
-  pendrywest.style.display = "none";
-  title.innerHTML ="test";
 });
 //New York || pmw || Union Square
 unionOption1.addEventListener("click", function () {
@@ -662,7 +664,29 @@ unionOption2.addEventListener("click", function () {
 //New York || pmw || Times Square
 timesOption1.addEventListener("click", function () {
   timessquare.style.display = "none";
-  title.innerHTML ="Test";
+  title.innerHTML ="";
+  timesEnd1.style.display = "flex";
+});
+timesOption2.addEventListener("click", function () {
+  timessquare.style.display = "none";
+  title.innerHTML ="Which show will you watch?";
+  broadway.style.display = "flex";
+});
+//New York || pmw || Times Square || bwy
+broadwayOption1.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
+});
+broadwayOption2.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
+});
+broadwayOption3.addEventListener("click", function () {
+  broadway.style.display = "none";
+  title.innerHTML ="";
+  bwyEnd1.style.display = "flex";
 });
 
 //New York || The Pierre
