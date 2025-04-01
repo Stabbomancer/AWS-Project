@@ -46,30 +46,50 @@ let pmwOption2 = document.querySelector(".pmw2");
 let unionsquare = document.querySelector(".unionsquare");
 let unionOption1 = document.querySelector(".union1");
 let unionOption2 = document.querySelector(".union2");
-let unionOption3 = document.querySelector(".union3");
+let unionEnd1 = document.querySelector(".unionend1");
+let unionEnd2 = document.querySelector(".unionend2");
 //New York || Pendry Manhattan West || Times Square
 let timessquare = document.querySelector(".timessquare");
 let timesOption1 = document.querySelector(".times1");
 let timesOption2 = document.querySelector(".times2");
 let timesEnd1 = document.querySelector(".timesend1");
-let timesEnd2 = document.querySelector(".timesend2");
 //New York || Pendry Manhattan West || Times Square || Broadway
 let broadway = document.querySelector(".broadway");
 let broadwayOption1 = document.querySelector(".bwy1");
 let broadwayOption2 = document.querySelector(".bwy2");
 let broadwayOption3 = document.querySelector(".bwy3");
 let bwyEnd1 = document.querySelector(".timesend2");
+
 //New York || The Pierre
 let pierre = document.querySelector(".pierre");
 let pierreOption1 = document.querySelector(".pierre1");
 let pierreOption2 = document.querySelector(".pierre2");
-let pierreOption3 = document.querySelector(".pierre3");
+//New York || The Pierre || Central Park
+let centralpark = document.querySelector(".central");
+let centralOption1 = document.querySelector(".central1");
+let centralOption2 = document.querySelector(".central2");
+let centralend1 = document.querySelector(".centralend1");
+let centralend2 = document.querySelector(".centralend2");
+//New York || The Pierre || Hudson East River
+let hudsonriver = document.querySelector(".river");
+let riverOption1 = document.querySelector(".river1");
+let riverOption2 = document.querySelector(".river2");
+let riverend1 = document.querySelector(".riverend1");
+let riverend2 = document.querySelector(".riverend2");
 
 //New York || The Cloudone
 let cloudone = document.querySelector(".cloudone");
 let coOption1 = document.querySelector(".co1");
 let coOption2 = document.querySelector(".co2");
-let coOption3 = document.querySelector(".co3");
+//New York || The Cloudone || Statue of Liberty
+let libertyend1 = document.querySelector(".libertyend1");
+//New York || The Cloudone || Rockerfeller Center
+let rock = document.querySelector(".rock")
+let rockOption1 = document.querySelector(".rock1");
+let rockOption2 = document.querySelector(".rock2");
+let rockend1 = document.querySelector(".rockend1");
+let rockend2 = document.querySelector(".rockend2");
+
 
 //New York || Hyatt Regency
 let hyatt = document.querySelector(".cloudone");
@@ -644,22 +664,24 @@ lvOption4.addEventListener("click", function () {
 //New York || pmw
 pmwOption1.addEventListener("click", function () {
   pendrywest.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "What will you do here?";
   unionsquare.style.display = "flex";
 });
 pmwOption2.addEventListener("click", function () {
   pendrywest.style.display = "none";
-  title.innerHTML ="As you walk through Times square you spot people dressed as superheroes";
+  title.innerHTML ="As you walk through Times square you look for things to do";
   timessquare.style.display = "flex";
 });
 //New York || pmw || Union Square
 unionOption1.addEventListener("click", function () {
   unionsquare.style.display = "none";
-  title.innerHTML ="Test";
+  title.innerHTML = "";
+  unionEnd1.style.display = "flex";
 });
 unionOption2.addEventListener("click", function () {
   unionsquare.style.display = "none";
-  title.innerHTML ="Test";
+  title.innerHTML ="";
+  unionEnd2.style.display = "flex";
 });
 //New York || pmw || Times Square
 timesOption1.addEventListener("click", function () {
@@ -692,42 +714,74 @@ broadwayOption3.addEventListener("click", function () {
 //New York || The Pierre
 pierreOption1.addEventListener("click", function () {
   pierre.style.display = "none";
-  title.innerHTML ="test";
+  title.innerHTML ="You walk through central park, what now?";
+  centralpark.style.display = "flex"
 });
 pierreOption2.addEventListener("click", function () {
   pierre.style.display = "none";
-  title.innerHTML ="test";
+  title.innerHTML ="What will you do now?";
+  hudsonriver.style.display = "flex";
 });
-pierreOption3.addEventListener("click", function () {
-  pierre.style.display = "none";
-  title.innerHTML ="test";
+//New York || The Pierre || Central Park
+centralOption1.addEventListener("click", function () {
+  centralpark.style.display = "none";
+  title.innerHTML ="";
+  centralend1.style.display = "flex"
 });
+centralOption2.addEventListener("click", function () {
+  centralpark.style.display = "none";
+  title.innerHTML ="";
+centralend2.style.display = "flex"
+});
+//New York || The Pierre || Hudson East River
+riverOption1.addEventListener("click", function () {
+  hudsonriver.style.display = "none";
+  title.innerHTML ="";
+  riverend1.style.display = "flex"
+});
+riverOption2.addEventListener("click", function () {
+  hudsonriver.style.display = "none";
+  title.innerHTML ="";
+  riverend2.style.display = "flex"
+});
+
   //New York || The Cloudone
   coOption1.addEventListener("click", function () {
     cloudone.style.display = "none";
-    title.innerHTML ="test";
-  });
+    title.innerHTML ="";
+    libertyend1.style.display = "flex"
+
+});
   coOption2.addEventListener("click", function () {
     cloudone.style.display = "none";
-    title.innerHTML ="test";
+    title.innerHTML ="";
+    rock.style.display = "flex"
+});
+  //New York || The Cloudone || Rockerfeller Center
+  rockOption1.addEventListener("click", function () {
+    rock.style.display = "none";
+    title.innerHTML ="";
+    rockend1.style.display = "flex";
+});
+  rockOption2.addEventListener("click", function () {
+    rock.style.display = "none";
+    title.innerHTML ="";
+    rockend2.style.display = "flex";
   });
-  coOption3.addEventListener("click", function () {
-    cloudone.style.display = "none";
-    title.innerHTML ="test";
-  });
+
   //New York || Hyatt Regency
   hyattOption1.addEventListener("click", function () {
     hyatt.style.display = "none";
-    title.innerHTML ="test";
-  });
+    title.innerHTML ="";
+});
   hyattOption2.addEventListener("click", function () {
     hyatt.style.display = "none";
     title.innerHTML ="test";
-  });
+});
   hyattOption3.addEventListener("click", function () {
     hyatt.style.display = "none";
     title.innerHTML ="test";
-  });
+});
 
 
 //Germany
