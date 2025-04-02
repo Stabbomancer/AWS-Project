@@ -90,12 +90,46 @@ let rockOption2 = document.querySelector(".rock2");
 let rockend1 = document.querySelector(".rockend1");
 let rockend2 = document.querySelector(".rockend2");
 
-
 //New York || Hyatt Regency
-let hyatt = document.querySelector(".cloudone");
-let hyattOption1 = document.querySelector(".co1");
-let hyattOption2 = document.querySelector(".co2");
-let hyattOption3 = document.querySelector(".co3");
+let hyatt = document.querySelector(".hyatt");
+let hyattOption1 = document.querySelector(".hyatt1");
+let hyattOption2 = document.querySelector(".hyatt2");
+let fieldend1 = document.querySelector(".field");
+let imageend1 = document.querySelector(".image");
+
+//Florida || The belgrove Resort & Spa
+let belgrove = document.querySelector(".belgrove");
+let belgroveOption1 = document.querySelector(".belgrove1");
+let belgroveOption2 = document.querySelector(".belgrove2");
+let westend = document.querySelector(".west");
+let mangoniaend = document.querySelector(".mangonia");
+//Florida || Sunseeker Resort
+let sunseeker = document.querySelector(".sunseeker");
+let sunOption1 = document.querySelector(".sun1");
+let sunOption2 = document.querySelector(".sun2");
+let yacht= document.querySelector(".yacht");
+let cavern = document.querySelector(".cavern");
+//Florida || Hotel Haya
+let haya = document.querySelector(".haya");
+let hayaOption1 = document.querySelector(".haya1");
+let hayaOption2 = document.querySelector(".haya2");
+let disney = document.querySelector(".disney");
+let disneyOption1 = document.querySelector(".disney1");
+let disneyOption2 = document.querySelector(".disney2");
+let disneyend1 = document.querySelector(".disneyend1");
+let disneyend2 = document.querySelector(".disneyend2");
+let lego = document.querySelector(".lego");
+let legoOption1 = document.querySelector(".lego1");
+let legoOption2 = document.querySelector(".lego2");
+let legoend1 = document.querySelector(".legoend1");
+let legoend2 = document.querySelector(".legoend2");
+//Florida || Holiday Inn
+let inn = document.querySelector(".inn");
+let innOption1 = document.querySelector(".inn1");
+let innOption2 = document.querySelector(".inn2");
+let golf= document.querySelector(".golf");
+let baseball= document.querySelector(".baseball");
+
 
 //Germany
 //GRCities
@@ -613,19 +647,24 @@ nyOption4.addEventListener("click", function () {
 //Florida Hotels
 flOption1.addEventListener("click", function () {
   floridaStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near multiple bodies of water, what would you like to do?";
+  belgrove.style.display = "flex";
 });
 flOption2.addEventListener("click", function () {
   floridaStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near Port Charlotte, what would you like to do?";
+  sunseeker.style.display = "flex";
 });
 flOption3.addEventListener("click", function () {
   floridaStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near multiple amusement parks, what would you like to do?";
+  haya.style.display = "flex";
 });
 flOption4.addEventListener("click", function () {
   floridaStart.style.display = "none";
-  title.innerHTML = "Test";
+  title.innerHTML = "This hotel is near multiple sports fields, what would you like to do?";
+  inn.style.display = "flex";
+
 });
 //Los Angeles Hotels
 laOption1.addEventListener("click", function () {
@@ -750,11 +789,10 @@ riverOption2.addEventListener("click", function () {
     cloudone.style.display = "none";
     title.innerHTML ="";
     libertyend1.style.display = "flex"
-
 });
   coOption2.addEventListener("click", function () {
     cloudone.style.display = "none";
-    title.innerHTML ="";
+    title.innerHTML ="What will you do at Rockefeller?";
     rock.style.display = "flex"
 });
   //New York || The Cloudone || Rockerfeller Center
@@ -767,20 +805,83 @@ riverOption2.addEventListener("click", function () {
     rock.style.display = "none";
     title.innerHTML ="";
     rockend2.style.display = "flex";
-  });
-
+});
   //New York || Hyatt Regency
   hyattOption1.addEventListener("click", function () {
     hyatt.style.display = "none";
     title.innerHTML ="";
+    fieldend1.style.display = "flex"
 });
   hyattOption2.addEventListener("click", function () {
     hyatt.style.display = "none";
-    title.innerHTML ="test";
+    title.innerHTML ="";
+    imageend1.style.display = "flex";
 });
-  hyattOption3.addEventListener("click", function () {
-    hyatt.style.display = "none";
-    title.innerHTML ="test";
+//Florida || The Belgrove Resort & Spa
+belgroveOption1.addEventListener("click", function () {
+  belgrove.style.display = "none";
+  title.innerHTML ="";
+  westend.style.display = "flex";
+});
+belgroveOption2.addEventListener("click", function () {
+  belgrove.style.display = "none";
+  title.innerHTML ="";
+  mangoniaend.style.display = "flex";
+});
+//Florida || Sunseeker Resort
+sunOption1.addEventListener("click", function () {
+  sunseeker.style.display = "none";
+  title.innerHTML ="";
+  yacht.style.display = "flex";
+});
+sunOption2.addEventListener("click", function () {
+  sunseeker.style.display = "none";
+  title.innerHTML ="";
+  cavern.style.display = "flex";
+});
+//Florida || Hotel Haya
+hayaOption1.addEventListener("click", function () {
+  haya.style.display = "none";
+  title.innerHTML ="What will you do in Walt Disney World?";
+  disney.style.display = "flex";
+});
+hayaOption2.addEventListener("click", function () {
+  haya.style.display = "none";
+  title.innerHTML ="What will you do at Legoland?";
+  lego.style.display = "flex";
+});
+//Florida || Hotel Haya || Disney
+disneyOption1.addEventListener("click", function () {
+  disney.style.display = "none";
+  title.innerHTML ="";
+  disneyend1.style.display = "flex";
+});
+disneyOption2.addEventListener("click", function () {
+  disney.style.display = "none";
+  title.innerHTML ="";
+  disneyend2.style.display = "flex";
+});
+//Florida || Hotel Haya || Lego
+legoOption1.addEventListener("click", function () {
+  lego.style.display = "none";
+  title.innerHTML ="";
+  legoend1.style.display = "flex";
+});
+legoOption2.addEventListener("click", function () {
+  lego.style.display = "none";
+  title.innerHTML ="";
+  legoend2.style.display = "flex";
+});
+//Florida || Holiday Inn
+innOption1.addEventListener("click", function () {
+  inn.style.display = "none";
+  title.innerHTML ="";
+  golf.style.display = "flex";
+});
+innOption2.addEventListener("click", function () {
+  inn.style.display = "none";
+  title.innerHTML ="";
+  baseball.style.display = "flex";
 });
 
 
